@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chatty</title>
+    <link rel="shortcut icon" href="./icon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="client.css">
+    <script type="module" src="client.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  </head>
+  <body>
+    <h5 id="titulo">Bienvenido al chat</h5>
+    <section id="chat">
+      <ul id="messages"></ul>
+      <form id="form">
+        <input
+          type="text"
+          name="message"
+          id="input"
+          placeholder="Escribe un mensaje"
+          autocomplete="off"
+          pattern="^(https?|ftp):\/\/[^\s/$.?#].[^\s]*$"
+        />
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+    <!--
+      <aside id="rightside">
+      <section id="right1">
+        <img src="./icon/katyusha.jpg" alt="katyusha girls & panzer" />
+      </section>
+    </aside>
+    -->
+  </body>
+</html>
