@@ -24,4 +24,4 @@ node ./server/index.js
 
 
 ## License
-[MIT]
+[MIT](https://choosealicense.com/licenses/mit/)
