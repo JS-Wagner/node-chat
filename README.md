@@ -2,7 +2,7 @@
 
 node-chat es un chat en tiempo real hecho a modo de práctica de varias tecnologías, utiliza Node.js, Express, Socket.io y SQL. Se basa en el protocolo de web-sockets para mantener una comunicación bidireccional entre el cliente y el servidor. Permite la interacción entre distintos usuarios, utiliza la base de datos para persistir los mensajes y su remitente, pudiéndose recuperar aún cuando se recarga la pestaña o se pierde la conexión, también incorpora soporte para URLs y emojis. 
 
-## Installation
+## Instalación
 
 Descargue este repositorio.
 
@@ -24,4 +24,4 @@ node ./server/index.js
 
 ```
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT]
