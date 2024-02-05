@@ -22,6 +22,6 @@ node ./server/index.js
 ```
 ![image](https://github.com/JS-Wagner/node-chat/assets/81495334/82074389-02c1-490f-8f19-839aeaf3f9c2)
 
-```
+
 ## License
 [MIT]
