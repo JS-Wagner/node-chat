@@ -6,7 +6,7 @@ node-chat es un chat en tiempo real hecho a modo de práctica de varias tecnolog
 
 Descargue este repositorio.
 
-Descargue e instale NodeJS.
+Descargue e instale 
 [NodeJS](https://nodejs.org/download/release/v18.19.0/)
 
 Descargue las siguientes dependencias desde la consola del proyecto:
