@@ -6,9 +6,24 @@ node-chat es un chat en tiempo real hecho a modo de práctica de varias tecnolog
 
 Descargue este repositorio.
 
+Descargue e instale NodeJS.
+[NodeJS](https://nodejs.org/download/release/v18.19.0/)
+
+Descargue las siguientes dependencias desde la consola del proyecto:
+
+```bash
+npm install express
+npm install morgan
+npm install dotenv
+npm install socket.io
+npm install @libsql/client
+npm install uuid
+
+```
+
 Verifique que el puerto 3000 se encuentra libre o cámbielo por otro de su gusto para que pueda utilizarlo el servicio.
 
-Colocar el token de la base de datos para poder persistir la información del chat
+Colocar el token de la base de datos SQL para poder persistir la información del chat.
 
 ```
 .env
